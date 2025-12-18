@@ -195,18 +195,6 @@ for doc in docs:
 
 *Note: Metrics vary based on ticket corpus size and Groq tier.*
 
----
-
-## 🔐 Security & Best Practices
-
-- ✅ API keys stored in `.env` (never committed)
-- ✅ Vector DB persisted locally (no cloud dependencies)
-- ✅ Input validation on ticket ingestion
-- ✅ Confidence thresholds prevent low-quality responses
-- ⚠️ **Production**: Consider adding authentication, rate limiting, and audit logs
-
----
-
 ## 🛠️ Dependencies
 
 | Package | Purpose |
